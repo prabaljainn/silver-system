@@ -9,8 +9,8 @@ function App() {
     // <ParticleBackground>
     <div className="main-content">
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/showcase" element={<Showcase />} />
+        <Route path="/" element={<Showcase />} />
+        <Route path="/showcase" element={< LoginPage />} />
       </Routes>
     </div>
     // </ParticleBackground>
