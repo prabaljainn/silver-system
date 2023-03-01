@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.inside-container {
+  padding: 5% 5%;
+}
